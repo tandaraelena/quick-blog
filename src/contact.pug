@@ -4,5 +4,19 @@ block config
         var title = 'Contact Quick Blog'
         var description = 'Contact me, the creator, Elena Tandara'
 block content
-        h1=title
-        p=description
+    .content
+        h2 Contact Information
+        p You can find me on those social media platforms:
+        ul
+            li
+                a(title='Click to go to Facebook') Facebook
+            li
+                a(title='Click to go to LinkedIn') LinkedIn
+            li
+                a(title='Click to go to StackOverflow') StackOverflow
+        hr
+        figure.image-container
+            img.image(src='/asset/image/cat.jpg')
+            figcaption.image-caption
+                strong Note:
+                span  Beautiful cat with green eyes
