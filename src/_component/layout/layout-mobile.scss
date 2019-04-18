@@ -73,6 +73,59 @@ html {
   }
 }
 
+
+.top {
+  display: block;
+  text-align: right;
+}
+
+.top-arrow {
+  margin: 0 0.2rem;
+  position: relative;
+
+  &:after {
+    content: '';
+    position: absolute;
+    // right: 0.3rem;
+    top: 0.2rem;
+    // display: block;
+    width: 0px;
+    height: 0px;
+    border-bottom: 0.4rem solid $color-darker;
+    border-left: 0.4rem solid transparent;
+    border-right: 0.4rem solid transparent;
+  }
+}
+
+a {
+  color: $color-darker;
+}
+
+p {
+  line-height: 1.5;
+}
+
+.content {
+  padding: 1.5rem;
+
+  h2 {
+    font-size: 2.5rem;
+    color: $color-darker;
+    font-weight: bold;
+    padding: 1rem 0;
+    line-height: 1.1;
+    text-align: initial;
+  }
+  blockquote {
+    border-left: 0.2rem solid $color-athens-gray;
+    padding-left: 1rem;
+    margin: 1rem 0;
+  }
+  .blockqoute-footer {
+    margin: 0.5rem 0;
+  }
+}
+
 // * {
 //   margin: 0;
 //   padding: 0;
