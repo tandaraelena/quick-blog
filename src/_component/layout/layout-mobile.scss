@@ -74,6 +74,14 @@ html {
   }
 }
 
+b {
+  font-weight: bold;
+}
+
+i {
+  font-style: italic;
+  font-size: 0.8rem;
+}
 
 .top {
   display: block;
@@ -136,9 +144,6 @@ p {
     border-left: 0.2rem solid $color-athens-gray;
     padding-left: 1rem;
     margin: 1rem 0;
-  }
-  .blockqoute-footer {
-    margin: 0.5rem 0;
   }
 }
 
